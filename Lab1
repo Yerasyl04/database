@@ -1,0 +1,31 @@
+1.6 Exercise:
+1)Icloud
+2)Health Iphone
+3)Kaspi
+4)Egov
+1.7 Exercise:
+1) Due to the process of normalisation, the data consistency is high than file….
+2) Query processing is efficient than file….
+3) A software to store and retrieve the user’s data
+4) No presence of redundant data
+1.8 Exercise:
+This is the ability to change data structures at low levels in Dbms without affecting or destroying the schema at higher levels.
+1.9 Exercise:
+Interaction with the File Manager:
+No DBM can do without this, if there is no file manager interaction then nothing stored in the files can be retrieved.
+Security Enforcement:
+Unauthorized users may access the database, or users authorized to access part of the database may be able to access parts of the database for which they lack authority.
+Backup and Recovery:
+Data could be lost permanently, rather than at least being available in a consistent state that existed prior to a failure.
+Concurrency Control:
+Consistency constraints may be violated despite proper integrity enforcement in each transaction.For example, incorrect bank balances might be reflected due to simultaneous withdrawals and deposits, and so on.
+1.10 Exercise:
+Declarative languages are easier to learn
+Declarative specifications in Declarative languages make it easy to use
+1.11 Exercise:
+The Transaction Isolation
+1.15 Exercise:
+Registrastion of users table
+Content table on profile
+List of friends
+ 
