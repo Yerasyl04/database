@@ -33,27 +33,27 @@ INSERT INTO Boxes(code, contents, value, warehouse) VALUES ('TU55', 'Papers', 90
 select * from Warehouses;
 
 select * from Boxes
-where value > 150
+where value > 150;
 
-select distinct on (contents)* from Boxes
+select distinct on (contents)* from Boxes;
+
+select warehouse,count(*) from Boxes
+group by warehouse;
 
 select warehouse,count(*) from Boxes
 group by warehouse
-
-select warehouse,count(*) from Boxes
-group by warehouse
-having count(*) > 2
+having count(*) > 2;
 
 insert into Warehouses(code, location, capacity) VALUES(6, 'New York', 3);
 insert into Boxes(code, contents, value, warehouse) VALUES ('H5RT', 'Papers', 200, 2);
 
 update Boxes
 set value = value * 0.85
-where value = (select value from Boxes order by value desc limit 1 offset 2)
+where value = (select value from Boxes order by value desc limit 1 offset 2);
 
 delete from Boxes
-where value < 150
+where value < 150;
 
 delete from Boxes
 where warehouse in (select code from Warehouses where location = 'New York')
-returning *
+returning *;
